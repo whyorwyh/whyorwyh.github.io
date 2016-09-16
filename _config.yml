@@ -1,0 +1,71 @@
+# Site Info
+title:              "wyh"
+
+description:        "Record what I have learned."
+
+google_verify:      # Put your Google Verification here
+
+google_analytics:   # Put your Google Analytics code
+
+
+# Author Info
+
+author_name:        "Wyh"
+
+author_email:       519750174@qq.com
+
+author_gravatar:     # Gravatar md5 hash
+
+
+# Site Settings
+
+baseurl:            "/record" # Base URL must end WITHOUT a slash, default: ""
+
+permalink:          /:year/:month/:day/:title  # Post permalink
+
+timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Site Build
+
+highlighter:        rouge
+
+#markdown:           redcarpet
+#redcarpet:
+
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+
+markdown:           kramdown
+
+kramdown:
+    
+input:          GFM
+
+sass:
+    
+style:          :compressed
+
+
+# Other Params
+
+include:            [ "robots.txt" ]
+
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+
+gems:
+  
+- jekyll-sitemap
+
+
+compress_html:
+    
+clippings:      all
+
+
+
+
+
+comments :
+provider : duoshuo
+duoshuo : 
+shortname : why2015
