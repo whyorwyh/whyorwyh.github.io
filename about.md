@@ -5,7 +5,7 @@ title: About
 
 Hello.
 
-web front-end learner
-**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~**
+I`m a web front-end learner~
+
 
 Thank you for coming!
