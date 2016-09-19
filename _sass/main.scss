@@ -30,6 +30,13 @@ a {
     margin: 30px 0;
   }
 }
+p a{
+    color: #4094c7;
+    font-size: 16px;
+    &:hover{
+      color: #075b8d;
+    }
+  }
 mark {
   background: #fffc76;
   padding: 0 5px;
@@ -150,13 +157,6 @@ span[data-note] {
       &:focus + .logo-prompt {
         display: none !important;
       }
-    }
-  }
-  p a{
-    color: #4094c7;
-    font-size: 16px;
-    &:hover{
-      color: #075b8d;
     }
   }
   .logo-prompt {
