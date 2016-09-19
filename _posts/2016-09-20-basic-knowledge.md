@@ -17,11 +17,11 @@ CSS是**Cascading Style Sheets**(层叠样式表)的简称，是一种标记�
 注意body元素默认高度是没有的，即0；默认宽度是页面的宽度，可以加border边框进行测试。  
 
 2. 【input、button区别】  
-input type="" value=""  type有多种   
-button type="" value="" type有三种 ：button、reset、submit   
+input  type有多种   
+button type有三种 ：button、reset、submit   
 value="" 为输入框中初始值   
-<button value="a">**b**</button>中初始值a会被b的值覆盖  
-input type="button"与button type="button"作用相同  
+```<button value="a">**b**</button>```中初始值a会被b的值覆盖  
+```<input type="button"/>```与```<button type="button"></button>```作用相同  
 
 3. 【inline、block、inline-block区别】  
 **inline**行内元素，无内容则不占空间   
@@ -39,10 +39,13 @@ taget四种属性值：_black、_parent、_self、_top
 5. 【有些标签不能相互嵌套】  
 a标签不能嵌套a标签，p不能嵌套p标签，*span*中*可以嵌套span*
 ```<a>
+
      <a></a>
+
 </a> ```
 自动变为：
 ``` <a></a>
+
 <a></a> ```  
 
 6. 【css3中的rgba】通过rgba设置透明度，可防止子元素继承父元素的透明度  
@@ -63,12 +66,12 @@ height:100%，是指子元素 相对**父块**高度而**定义**的高度，�
 当容器的大小需要根据内容变化的时候用auto,比如你在一个div里面显示文字内容，可以设置div的高度auto,他的高度就根据你的文字内容变化。若设置固定高度，有可能出现空白或者滚动条  
 
 2.  【min/max-height】  
-我们设置2个盒子一个限制最小高度，一个设置限制最大高度，
-**最小高度**限制的对象
-     如果**内容不多**不会超出限制最小高度，此时对象会**显示最小高度限制值**，
-     如果**内容多超过了最小高度**限制，此时对象会**自动增高**。
-**最大高度**限制的对象  
-     如果**内容少**时候**没有区别**，  
+我们设置2个盒子一个限制最小高度，一个设置限制最大高度，  
+**最小高度**限制的对象  
+     如果**内容不多**不会超出限制最小高度，此时对象会**显示最小高度限制值**，  
+     如果**内容多超过了最小高度**限制，此时对象会**自动增高**。  
+**最大高度**限制的对象    
+     如果**内容少**时候**没有区别**，    
      如果**内容多超过了最大高度**限制，此时对象本身**还是最大高度**，可使用[css overflow](http://www.divcss5.com/rumen/r414.shtml)属性[隐藏溢出内容](http://www.divcss5.com/wenji/w415.shtml)。  
 
 ***
@@ -89,7 +92,10 @@ background-color:blue；
 去掉边框右下角的小角：resize:none;  
 在textarea的placeholder中换行  
 可通过加入**& #13;& #10;**eg：placeholder="xxx**& #13;& #10;**xxx"(注：转义字符中无空格)  
+
 ***
+
+
 
 
 
