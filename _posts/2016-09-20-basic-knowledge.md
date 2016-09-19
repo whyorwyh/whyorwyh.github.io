@@ -1,3 +1,10 @@
+---
+layout: post
+title: basic knowledge
+---
+
+### 一些被忽略的基础点
+
 HTML是什么的英文缩写？CSS是什么的英文缩写？
 HTML**HyperTextMark-upLanguage**([超文本标记语言](https://www.baidu.com/s?wd=%E8%B6%85%E6%96%87%E6%9C%AC%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1dBmvPhnj9WPvnvrynsPWT30ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3En104nj03P16k)或[超文本链接](https://www.baidu.com/s?wd=%E8%B6%85%E6%96%87%E6%9C%AC%E9%93%BE%E6%8E%A5&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1dBmvPhnj9WPvnvrynsPWT30ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3En104nj03P16k)标示语言)的简称，是[WWW](https://www.baidu.com/s?wd=WWW&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1dBmvPhnj9WPvnvrynsPWT30ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3En104nj03P16k)的描述语言.
 CSS是**Cascading Style Sheets**(层叠样式表)的简称，是一种标记语言,它不需要编译,可以直接由浏览器执行(属于浏览器[解释型语言](https://www.baidu.com/s?wd=%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1Y3nWNhuWIWnHNhujcLuW0k0ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EPH6LrHf4PWbk)).
