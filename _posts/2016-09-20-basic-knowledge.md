@@ -20,7 +20,7 @@ CSS是**Cascading Style Sheets**(层叠样式表)的简称，是一种标记�
 input  type有多种   
 button type有三种 ：button、reset、submit   
 value="" 为输入框中初始值   
-```<button value="a">**b**</button>```中初始值a会被b的值覆盖  
+```<button value="a">b</button>```中初始值a会被b的值覆盖  
 ```<input type="button"/>```与```<button type="button"></button>```作用相同  
 
 3. 【inline、block、inline-block区别】  
@@ -39,11 +39,10 @@ taget四种属性值：_black、_parent、_self、_top
 5. 【有些标签不能相互嵌套】  
 a标签不能嵌套a标签，p不能嵌套p标签，*span*中*可以嵌套span*
 ```<a>  
-<a></a>  
+<a></a>    
 </a> ```  
-
 自动变为：
-``` <a></a>  
+``` <a></a>    
 <a></a> ```  
 
 6. 【css3中的rgba】通过rgba设置透明度，可防止子元素继承父元素的透明度  
@@ -75,8 +74,8 @@ height:100%，是指子元素 相对**父块**高度而**定义**的高度，�
 ***
 
 1. 【table】  
-因为表格的特殊性。
-table tr 的padding css 属性设置无效 ，tr、 td 的 margin 属性设置无效 ，td的padding有效  
+因为表格的特殊性。  
+table tr的padding属性设置无效 ，tr、td 的 margin 属性设置无效 ，td的padding有效  
 如果非要给tr加边框那必须先将table设置为边框分开显示  
 table{ [border-collapse](https://www.baidu.com/s?wd=border-collapse&tn=44039180_cpr&fenlei=mv6quAkxTZn0IZRqIHckPjm4nH00T1Y3njIbP1m3nHbknjI9nHRL0ZwV5Hcvrjm3rH6sPfKWUMw85HfYnjn4nH6sgvPsT6KdThsqpZwYTjCEQLGCpyw9Uz4Bmy-bIi4WUvYETgN-TLwGUv3EPHndPHcvnHfd):collapse } 加上这个 你再设置tr{border:1px solid red} 试一试
 
