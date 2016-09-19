@@ -38,14 +38,12 @@ taget四种属性值：_black、_parent、_self、_top
 
 5. 【有些标签不能相互嵌套】  
 a标签不能嵌套a标签，p不能嵌套p标签，*span*中*可以嵌套span*
-```<a>
+```<a>  
+<a></a>  
+</a> ```  
 
-     <a></a>
-
-</a> ```
 自动变为：
-``` <a></a>
-
+``` <a></a>  
 <a></a> ```  
 
 6. 【css3中的rgba】通过rgba设置透明度，可防止子元素继承父元素的透明度  
@@ -93,7 +91,7 @@ background-color:blue；
 在textarea的placeholder中换行  
 可通过加入**& #13;& #10;**eg：placeholder="xxx**& #13;& #10;**xxx"(注：转义字符中无空格)  
 
-***
+
 
 
 
