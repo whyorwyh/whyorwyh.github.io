@@ -37,7 +37,7 @@ taget四种属性值：_black、_parent、_self、_top
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/1644692-59f4911530240369.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
 5. 【有些标签不能相互嵌套】  
-a标签不能嵌套a标签，p不能嵌套p标签，*span*中*可以嵌套span*
+a标签不能嵌套a标签，p不能嵌套p标签，*span*中*可以嵌套span*  
 ```<a>  
 <a></a>    
 </a> ```  
