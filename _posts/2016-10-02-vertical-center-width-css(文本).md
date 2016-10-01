@@ -1,12 +1,12 @@
 ---
 layout: post
-title: vertical center width css
+title: vertical center width css（文本）
 ---
 
 ## **单行文本**：
     
   使用css属性line-height实现文字垂直居中，每行文字行高跟div盒子高度一样    
-  overflow:hidden的设置是为了防止内容超出容器或者产生自动换行，这样就达不到垂直居中效果了  
+  overflow:hidden的设置是为了防止内容超出容器或者产生自动换行，否则就达不到垂直居中效果了  
   
 ```
  .wrap{  
@@ -75,7 +75,9 @@ div{ padding:25px; } 
         }
 ```
 
-  （5）用display:table和display:table-cell模拟<table>就可以使用vertical-align了    
+  （5）用display:table和display:table-cell模拟<table>就可以使用vertical-align了      
+  (InternetExplorer6并不能正确地理解display:table和display:table-cell，因此这种方法在InternetExplorer6及以下的版本中是无效的)  
+
 ```
       .wrap{ 
           height:400px; 
@@ -87,7 +89,7 @@ div{ padding:25px; } 
           width:760px;
         } 
 ```  
-InternetExplorer6并不能正确地理解display:table和display:table-cell，因此这种方法在InternetExplorer6及以下的版本中是无效的
+
 
 ***
 
