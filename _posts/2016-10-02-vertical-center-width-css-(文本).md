@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vertical center width css（文本）
+title: vertical center width css (文本)
 ---
 
 ## **单行文本**：
