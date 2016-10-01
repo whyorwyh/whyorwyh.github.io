@@ -3,9 +3,10 @@ layout: post
 title: vertical center width css
 ---
 
-**单行文本**：    
-  使用css属性line-height实现文字垂直居中     
-  每行文字行高跟div盒子高度一样  
+## **单行文本**：
+    
+  使用css属性line-height实现文字垂直居中，每行文字行高跟div盒子高度一样    
+  overflow:hidden的设置是为了防止内容超出容器或者产生自动换行，这样就达不到垂直居中效果了  
   
 ```
  .wrap{  
@@ -15,16 +16,15 @@ title: vertical center width css
         }
 ```
 
-overflow:hidden的设置是为了防止内容超出容器或者产生自动换行，这样就达不到垂直居中效果了
+## **多行文本**：      
 
-**多行文本**：      
   （1）使**padding-top=padding-bottom**,前提就是容器的高度必须是可伸缩的
 
 ```
 div{ padding:25px; } 
 ```
 
-  （2）、使用**定位将一个盒子固定在div块中间**，将p标签放在盒子中就可实现多行垂直居中。  
+  （2）使用**定位将一个盒子固定在div块中间**，将p标签放在盒子中就可实现多行垂直居中。  
 
 ```
        .wrap{
@@ -45,9 +45,9 @@ div{ padding:25px; } 
         }
 ```
 
-  （3）、借助**line-height**和**vertical-align**实现多行文字垂直居中。
+  （3）借助**line-height**和**vertical-align**实现多行文字垂直居中。
 
-  ```
+```
         p{  
             line-height:150px;  
         }  
@@ -59,9 +59,9 @@ div{ padding:25px; } 
         }
 ```
 
-  （4）、就是把文字**当图片处理**。用一个span标签把所有的文字包进来，设置文字与图片相同的display属性（**inline-block**属性），然后用处理图片垂直居中的方式处理文字的垂直居中即可。  
+  （4）就是把文字**当图片处理**。用一个span标签把所有的文字包进来，设置文字与图片相同的display属性（**inline-block**属性），然后用处理图片垂直居中的方式处理文字的垂直居中即可。  
 
-  ```
+```
         .wrap{
             width:550px;
             height:200px; 
@@ -75,9 +75,8 @@ div{ padding:25px; } 
         }
 ```
 
-  （5）用display:table和display:table-cell模拟<table>就可以使用vertical-align了
-
-  ```
+  （5）用display:table和display:table-cell模拟<table>就可以使用vertical-align了    
+```
       .wrap{ 
           height:400px; 
           display:table; 
@@ -87,13 +86,12 @@ div{ padding:25px; } 
           display:table-cell; 
           width:760px;
         } 
-```
-
+```  
 InternetExplorer6并不能正确地理解display:table和display:table-cell，因此这种方法在InternetExplorer6及以下的版本中是无效的
 
 ***
 
-###相关参考  
+### 相关参考  
 
 [使用css属性line-height实现文字垂直居中的问题](http://www.cnblogs.com/gaotenglong/p/5711909.html)  
 [大小不固定的图片、多行文字的水平垂直居中](http://www.zhangxinxu.com/wordpress/2009/08/%E5%A4%A7%E5%B0%8F%E4%B8%8D%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%9B%BE%E7%89%87%E3%80%81%E5%A4%9A%E8%A1%8C%E6%96%87%E5%AD%97%E7%9A%84%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/)     
