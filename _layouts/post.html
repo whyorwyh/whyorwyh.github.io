@@ -22,7 +22,47 @@ layout: default
 	<div class="divider"></div>
 
 	{{ content }}
+<!-- 多说评论框 start -->
+	<div class="ds-thread"  {% if page.id %}data-thread-key="{{ page.id }}"{% endif %}  data-title="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"why2015"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
 
+        <div class='clearfix'></div>
+      </div>
+    </div>
+    <div id='footer'>
+   Hosted by <a href='http://github.com/whyorwyh/wblog' target='_blank'>GitHub </a> and powered by <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a>
+   </div>
+	
+	<!--网站为了获取用户访问网站的统计信息，使用google-analytics分析网站-->
+	<!--google-analytics分析网站start-->
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <!--google-analytics分析网站end-->
+  
+  <!--Google Analytics的跟踪代码start-->
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-8889441-1");
+  pageTracker._trackPageview();
+  } 
+  catch(err) {}
+  </script>
+  <!--Google Analytics的跟踪代码end-->
 </article>
 
 <div class="back">
