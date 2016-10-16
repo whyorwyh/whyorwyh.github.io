@@ -12,7 +12,7 @@ iconfont字体文件是用字体编码的形式来实现图标效果，既然是
 ### 通过@font-face**使用特殊字体**
 主要步骤：找字体>转换所需字体格式>在css中引入声明>应用  
 **一、获取特殊字体：**  
-      到免费网站DownLoad字体， 如[Dafont.com](http://www.dafont.com/)  
+      到免费网站DownLoad字体， 如[Dafont.com](http://www.dafont.com/)  
       下载下来后，需要把它解压缩出来  
 **二、获取@font-face所需字体格式：（** 获得@font-face所需的.eot,.woff,.ttf,.svg字体格式**）**       
       第三方工具或者软件来实现，如 [fontsquirrel](http://www.fontsquirrel.com/fontface/generator)  
@@ -21,7 +21,7 @@ iconfont字体文件是用字体编码的形式来实现图标效果，既然是
 **三、在项目中单独创建一个fonts目录，用来放置解压缩出来@font-face所需的字体格式**   
       在本地项目中的style.css中附上我们需要的@font-face样式  
 ![](http://upload-images.jianshu.io/upload_images/1644692-2979ae069f5fe73a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-四、把自己定义的字体应用到你的Web中的DOM元素上         
+**四、把自己定义的字体应用到你的Web中的DOM元素上**         
 ![](http://upload-images.jianshu.io/upload_images/1644692-09532cb5e598f7e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 **建议**：   
 英文网站，项目中的Logo，Tags等应用到较多的这种特殊字体效果，建议使用@font-face；  中文网站，使用图片比较合适。  
@@ -35,7 +35,7 @@ iconfont字体文件是用字体编码的形式来实现图标效果，既然是
 主要步骤：找图标>转换所需字体格式>css中引入声明>应用   
 
 ##### 1.**使用已有字库**  
-如**[阿里icon font字库](http://www.iconfont.cn)**、**[Font-Awesome](http://fortawesome.github.io/Font-Awesome/)**、**[Glyphicon Halflings](http://glyphicons.com/)**
+如**[阿里icon font字库](http://www.iconfont.cn)**、**[Font-Awesome](http://fortawesome.github.io/Font-Awesome/)**、**[Glyphicon Halflings](http://glyphicons.com/)**  
 **一、使用@font-face声明字体**  
 ![](http://upload-images.jianshu.io/upload_images/1644692-3b66ec84df46ff0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 **二、定义使用iconfont的样式**  
@@ -55,21 +55,21 @@ iconfont字体文件是用字体编码的形式来实现图标效果，既然是
 **四、获取svg字体以及字符号的编码**  
 **五、转换字体**  
 **六、引入使用**    
-  引入方法：    
+  引用方法：    
     1.把字符直接写在html文件里    
-![](http://upload-images.jianshu.io/upload_images/1644692-6bd117ff4860bc37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-![](http://upload-images.jianshu.io/upload_images/1644692-5dfd870138ff3507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-这个字母（s）在选定的字体中被映射到一个特定的图标  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-6bd117ff4860bc37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-5dfd870138ff3507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      这个字母（s）在选定的字体中被映射到一个特定的图标  
     2.使用css来生成内容  
-![](http://upload-images.jianshu.io/upload_images/1644692-bd2ba8be1f6fa644.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
-![](http://upload-images.jianshu.io/upload_images/1644692-9065a17b347012df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
-同样是需要使用字母s来映射出图标，只不过区别是移除了HTML标签换用了CSS样式实现。  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-bd2ba8be1f6fa644.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+      ![](http://upload-images.jianshu.io/upload_images/1644692-9065a17b347012df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)   
+      同样是需要使用字母s来映射出图标，只不过区别是移除了HTML标签换用了CSS样式实现。  
     3.用data-icon属性  
-![](http://upload-images.jianshu.io/upload_images/1644692-c6bda168c977e58a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-![](http://upload-images.jianshu.io/upload_images/1644692-3593911b5d6ba7a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-c6bda168c977e58a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-3593911b5d6ba7a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
     4.更好的 data-icon 方法  
-![](http://upload-images.jianshu.io/upload_images/1644692-c29e5c18ced7727b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
-![](http://upload-images.jianshu.io/upload_images/1644692-3cb0bf958a8e310f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-c29e5c18ced7727b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+      ![](http://upload-images.jianshu.io/upload_images/1644692-3cb0bf958a8e310f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
 
 ***
 
